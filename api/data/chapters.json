@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Chapter 1",
+    "caption": "Kaderisasi Berjenjang",
+    "description": "Kaderisasi Berjenjang dilakukan melalui pelatihan-pelatihan kader berjenjang yang bersifat formal dan baku, serta pelatihan-pelatihan pengembangan kader lainnya. Baku yang dimaksud adalah telah ditetapkan dan ditentukan materinya, lama waktu penyelenggarannya, tujuan atau orientasinya, pihak yang boleh menyelenggarakan sampai pada tahap sertifikasinya.",
+    "parts": [
+      {
+        "title": "Bagian 1",
+        "caption": "Masa Kesetiaan Anggota (MAKESTA)"
+      },
+      {
+        "title": "Bagian 2",
+        "caption": "Latihan Kader Muda (LAKMUD)"
+      },
+      {
+        "title": "Bagian 3",
+        "caption": "Latihan Kader Utama (LAKUT)"
+      }
+    ]
+  },
+  {
+    "title": "Chapter 2",
+    "caption": "Kaderisasi Pilihan",
+    "description": "kaderisasi pilihan bisa dilakukan melalui pelatihan-pelatihan khusus pendampingan dan dan praktek lapangan. pelatihan ini dimaksudkan untuk menampung dari mengembangkan potensi kader yang sesuai dengan spesifikasi diri yiatu bakat atau potensi dan minat, dengan menyeimbangkan kondisi perkembangan dan tuntutan  zaman",
+    "parts": [
+      {
+        "title": "Bagian 1",
+        "caption": "Latihan Instruktur I"
+      },
+      {
+        "title": "Bagian 2",
+        "caption": "Latihan Instruktur II"
+      }
+    ]
+  }
+]
