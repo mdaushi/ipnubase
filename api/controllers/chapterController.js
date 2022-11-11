@@ -1,6 +1,8 @@
 const chapterJson = require("../data/chapters.json");
 const chapterModel = require("../models/chapterModel");
 const apiResponse = require("../services/api");
+const fs = require("fs");
+const path = require("path");
 
 function index(req, res, next) {
   let chapter = new chapterModel().all();
@@ -12,8 +14,8 @@ function chapter(req, res, next) {
 
   let chapter = new chapterModel().findById(chapterId).get();
 
-  if(typeof chapter === "undefined"){
-    return res.status(404).json(apiResponse.jsonError("Chapter not found"))
+  if (typeof chapter === "undefined") {
+    return res.status(404).json(apiResponse.jsonError("Chapter not found"));
   }
 
   return res.json(apiResponse.jsonSuccess("", chapter));
@@ -22,6 +24,12 @@ function chapter(req, res, next) {
 function part(req, res, next) {
   let chapterId = req.params.chapter;
   let part = req.params.part;
+
+  if (!fs.existsSync(path.resolve("api/data/" + part + ".json"))) {
+    return res
+      .status(404)
+      .json(apiResponse.jsonError(part + " part not found"));
+  }
 
   let chapter = new chapterModel().findById(chapterId).findPart(part).get();
   return res.json(apiResponse.jsonSuccess("", chapter));
