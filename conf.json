@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "nlp": {
+      "corpora": ["./api/data/dataset.json"]
+    }
+  },
+  "use": ["Basic"]
+}

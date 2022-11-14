@@ -1,0 +1,37 @@
+{
+  "name": "ipnubase",
+  "locale": "id-ID",
+  "data": [
+    {
+      "intent": "qna.boring",
+      "utterances": [
+        "apa kepanjangan IPNU",
+        "kapan tanggal lahir IPNU",
+        "siapa pendiri IPNU",
+        "apa itu IPNU"
+      ],
+      "answers": ["IPNU 1", "IPNU 2", "IPNU 3"]
+    },
+    {
+      "intent": "dataset.makesta",
+      "utterances": [
+        "makesta",
+        "makesta adalah",
+        "makesta artinya",
+        "makesta singkatan dari",
+        "makesta itu apa",
+        "makesta ipnu"
+      ],
+      "answers": ["definition.makesta"]
+    },
+    {
+      "intent": "dataset.makesta.materi",
+      "utterances": [
+        "materi makesta",
+        "materi wajib makesta",
+        "materi makesta ipnu"
+      ],
+      "answers":["syllabus.makesta"]
+    }
+  ]
+}
